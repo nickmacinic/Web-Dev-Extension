@@ -1,1 +1,17 @@
-{}
+{
+    "Button" : {
+        "prefix": "!b",
+        "body": [
+            "<button type=\"button\">$1</button>"
+        ],
+        "description": "Button"
+    },
+    "Square" : {
+        "prefix": "square",
+        "body": [
+            "<div width=\"200\" height=\"200\">",
+            "$0 $1",
+            "</div>"
+        ]
+    }
+}

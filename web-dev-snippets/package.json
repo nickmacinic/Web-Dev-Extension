@@ -2,7 +2,13 @@
     "name": "web-dev-snippets",
     "displayName": "Web Dev Snippets",
     "description": "This is an extension that contains snippets for web dev",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "nick",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nickmacinic/Web-Dev-Extension"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -12,7 +18,15 @@
     "contributes": {
         "snippets": [
             {
-                "language": "html css js",
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
